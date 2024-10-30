@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div>
       <Testing />
+      <New />
     </div>
   )
 }
