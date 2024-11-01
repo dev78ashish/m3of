@@ -1,10 +1,19 @@
 import React from 'react'
+import { css } from '@emotion/css'
 
-const New = () => {
+const color='white'
+
+const New = (props) => {
+  // console.log(name)
   return (
-    <div>i am new component
-        excited to work in new
-    </div>
+    <div
+    className={css`
+      background-color: hotpink;
+      &:hover {
+        color: ${color};
+      }
+    `}
+  >jogeo</div>
   )
 }
 
